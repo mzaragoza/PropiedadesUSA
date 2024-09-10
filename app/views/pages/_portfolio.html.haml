@@ -1,0 +1,109 @@
+/ Portfolio Section
+%section#portfolio.portfolio.section
+  / Section Title
+  .container.section-title{"data-aos" => "fade-up"}
+    %h2 Portfolio
+    %p Necessitatibus eius consequatur ex aliquid fuga eum quidem sint consectetur velit
+  / End Section Title
+  .container
+    .isotope-layout{"data-default-filter" => "*", "data-layout" => "masonry", "data-sort" => "original-order"}
+      %ul.portfolio-filters.isotope-filters{"data-aos" => "fade-up", "data-aos-delay" => "100"}
+        %li.filter-active{"data-filter" => "*"} All
+        %li{"data-filter" => ".filter-app"} App
+        %li{"data-filter" => ".filter-product"} Card
+        %li{"data-filter" => ".filter-branding"} Web
+      / End Portfolio Filters
+      .row.gy-4.isotope-container{"data-aos" => "fade-up", "data-aos-delay" => "200"}
+        .col-lg-4.col-md-6.portfolio-item.isotope-item.filter-app
+          %img.img-fluid{:alt => "", :src => "/assets/public/assets/img/masonry-portfolio/masonry-portfolio-1.jpg"}/
+          .portfolio-info
+            %h4 App 1
+            %p Lorem ipsum, dolor sit
+            %a.glightbox.preview-link{"data-gallery" => "portfolio-gallery-app", :href => "/assets/public/assets/img/masonry-portfolio/masonry-portfolio-1.jpg", :title => "App 1"}
+              %i.bi.bi-zoom-in
+            %a.details-link{:href => "portfolio-details.html", :title => "More Details"}
+              %i.bi.bi-link-45deg
+        / End Portfolio Item
+        .col-lg-4.col-md-6.portfolio-item.isotope-item.filter-product
+          %img.img-fluid{:alt => "", :src => "/assets/public/assets/img/masonry-portfolio/masonry-portfolio-2.jpg"}/
+          .portfolio-info
+            %h4 Product 1
+            %p Lorem ipsum, dolor sit
+            %a.glightbox.preview-link{"data-gallery" => "portfolio-gallery-product", :href => "/assets/public/assets/img/masonry-portfolio/masonry-portfolio-2.jpg", :title => "Product 1"}
+              %i.bi.bi-zoom-in
+            %a.details-link{:href => "portfolio-details.html", :title => "More Details"}
+              %i.bi.bi-link-45deg
+        / End Portfolio Item
+        .col-lg-4.col-md-6.portfolio-item.isotope-item.filter-branding
+          %img.img-fluid{:alt => "", :src => "/assets/public/assets/img/masonry-portfolio/masonry-portfolio-3.jpg"}/
+          .portfolio-info
+            %h4 Branding 1
+            %p Lorem ipsum, dolor sit
+            %a.glightbox.preview-link{"data-gallery" => "portfolio-gallery-branding", :href => "/assets/public/assets/img/masonry-portfolio/masonry-portfolio-3.jpg", :title => "Branding 1"}
+              %i.bi.bi-zoom-in
+            %a.details-link{:href => "portfolio-details.html", :title => "More Details"}
+              %i.bi.bi-link-45deg
+        / End Portfolio Item
+        .col-lg-4.col-md-6.portfolio-item.isotope-item.filter-app
+          %img.img-fluid{:alt => "", :src => "/assets/public/assets/img/masonry-portfolio/masonry-portfolio-4.jpg"}/
+          .portfolio-info
+            %h4 App 2
+            %p Lorem ipsum, dolor sit
+            %a.glightbox.preview-link{"data-gallery" => "portfolio-gallery-app", :href => "/assets/public/assets/img/masonry-portfolio/masonry-portfolio-4.jpg", :title => "App 2"}
+              %i.bi.bi-zoom-in
+            %a.details-link{:href => "portfolio-details.html", :title => "More Details"}
+              %i.bi.bi-link-45deg
+        / End Portfolio Item
+        .col-lg-4.col-md-6.portfolio-item.isotope-item.filter-product
+          %img.img-fluid{:alt => "", :src => "/assets/public/assets/img/masonry-portfolio/masonry-portfolio-5.jpg"}/
+          .portfolio-info
+            %h4 Product 2
+            %p Lorem ipsum, dolor sit
+            %a.glightbox.preview-link{"data-gallery" => "portfolio-gallery-product", :href => "/assets/public/assets/img/masonry-portfolio/masonry-portfolio-5.jpg", :title => "Product 2"}
+              %i.bi.bi-zoom-in
+            %a.details-link{:href => "portfolio-details.html", :title => "More Details"}
+              %i.bi.bi-link-45deg
+        / End Portfolio Item
+        .col-lg-4.col-md-6.portfolio-item.isotope-item.filter-branding
+          %img.img-fluid{:alt => "", :src => "/assets/public/assets/img/masonry-portfolio/masonry-portfolio-6.jpg"}/
+          .portfolio-info
+            %h4 Branding 2
+            %p Lorem ipsum, dolor sit
+            %a.glightbox.preview-link{"data-gallery" => "portfolio-gallery-branding", :href => "/assets/public/assets/img/masonry-portfolio/masonry-portfolio-6.jpg", :title => "Branding 2"}
+              %i.bi.bi-zoom-in
+            %a.details-link{:href => "portfolio-details.html", :title => "More Details"}
+              %i.bi.bi-link-45deg
+        / End Portfolio Item
+        .col-lg-4.col-md-6.portfolio-item.isotope-item.filter-app
+          %img.img-fluid{:alt => "", :src => "/assets/public/assets/img/masonry-portfolio/masonry-portfolio-7.jpg"}/
+          .portfolio-info
+            %h4 App 3
+            %p Lorem ipsum, dolor sit
+            %a.glightbox.preview-link{"data-gallery" => "portfolio-gallery-app", :href => "/assets/public/assets/img/masonry-portfolio/masonry-portfolio-7.jpg", :title => "App 3"}
+              %i.bi.bi-zoom-in
+            %a.details-link{:href => "portfolio-details.html", :title => "More Details"}
+              %i.bi.bi-link-45deg
+        / End Portfolio Item
+        .col-lg-4.col-md-6.portfolio-item.isotope-item.filter-product
+          %img.img-fluid{:alt => "", :src => "/assets/public/assets/img/masonry-portfolio/masonry-portfolio-8.jpg"}/
+          .portfolio-info
+            %h4 Product 3
+            %p Lorem ipsum, dolor sit
+            %a.glightbox.preview-link{"data-gallery" => "portfolio-gallery-product", :href => "/assets/public/assets/img/masonry-portfolio/masonry-portfolio-8.jpg", :title => "Product 3"}
+              %i.bi.bi-zoom-in
+            %a.details-link{:href => "portfolio-details.html", :title => "More Details"}
+              %i.bi.bi-link-45deg
+        / End Portfolio Item
+        .col-lg-4.col-md-6.portfolio-item.isotope-item.filter-branding
+          %img.img-fluid{:alt => "", :src => "/assets/public/assets/img/masonry-portfolio/masonry-portfolio-9.jpg"}/
+          .portfolio-info
+            %h4 Branding 3
+            %p Lorem ipsum, dolor sit
+            %a.glightbox.preview-link{"data-gallery" => "portfolio-gallery-branding", :href => "/assets/public/assets/img/masonry-portfolio/masonry-portfolio-9.jpg", :title => "Branding 2"}
+              %i.bi.bi-zoom-in
+            %a.details-link{:href => "portfolio-details.html", :title => "More Details"}
+              %i.bi.bi-link-45deg
+        / End Portfolio Item
+      / End Portfolio Container
+/ /Portfolio Section
+

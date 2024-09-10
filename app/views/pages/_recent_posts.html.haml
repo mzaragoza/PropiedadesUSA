@@ -1,0 +1,54 @@
+/ Recent Posts Section
+%section#recent-posts.recent-posts.section
+  / Section Title
+  .container.section-title{"data-aos" => "fade-up"}
+    %h2 Recent Posts
+    %p Necessitatibus eius consequatur ex aliquid fuga eum quidem sint consectetur velit
+  / End Section Title
+  .container
+    .row.gy-4
+      .col-xl-4.col-md-6{"data-aos" => "fade-up", "data-aos-delay" => "100"}
+        %article
+          .post-img
+            %img.img-fluid{:alt => "", :src => "/assets/public/assets/img/blog/blog-1.jpg"}/
+          %p.post-category Politics
+          %h2.title
+            %a{:href => "blog-details.html"} Dolorum optio tempore voluptas dignissimos
+          .d-flex.align-items-center
+            %img.img-fluid.post-author-img.flex-shrink-0{:alt => "", :src => "/assets/public/assets/img/blog/blog-author.jpg"}/
+            .post-meta
+              %p.post-author Maria Doe
+              %p.post-date
+                %time{:datetime => "2022-01-01"} Jan 1, 2022
+      / End post list item
+      .col-xl-4.col-md-6{"data-aos" => "fade-up", "data-aos-delay" => "200"}
+        %article
+          .post-img
+            %img.img-fluid{:alt => "", :src => "/assets/public/assets/img/blog/blog-2.jpg"}/
+          %p.post-category Sports
+          %h2.title
+            %a{:href => "blog-details.html"} Nisi magni odit consequatur autem nulla dolorem
+          .d-flex.align-items-center
+            %img.img-fluid.post-author-img.flex-shrink-0{:alt => "", :src => "/assets/public/assets/img/blog/blog-author-2.jpg"}/
+            .post-meta
+              %p.post-author Allisa Mayer
+              %p.post-date
+                %time{:datetime => "2022-01-01"} Jun 5, 2022
+      / End post list item
+      .col-xl-4.col-md-6{"data-aos" => "fade-up", "data-aos-delay" => "300"}
+        %article
+          .post-img
+            %img.img-fluid{:alt => "", :src => "/assets/public/assets/img/blog/blog-3.jpg"}/
+          %p.post-category Entertainment
+          %h2.title
+            %a{:href => "blog-details.html"} Possimus soluta ut id suscipit ea ut in quo quia et soluta
+          .d-flex.align-items-center
+            %img.img-fluid.post-author-img.flex-shrink-0{:alt => "", :src => "/assets/public/assets/img/blog/blog-author-3.jpg"}/
+            .post-meta
+              %p.post-author Mark Dower
+              %p.post-date
+                %time{:datetime => "2022-01-01"} Jun 22, 2022
+      / End post list item
+    / End recent posts list
+/ /Recent Posts Section
+

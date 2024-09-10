@@ -1,0 +1,41 @@
+/ Features Section
+%section#features.features.section
+  / Section Title
+  .container.section-title{"data-aos" => "fade-up"}
+    %h2 Features
+    %p Necessitatibus eius consequatur ex aliquid fuga eum quidem sint consectetur velit
+  / End Section Title
+  .container
+    .row.gy-4.align-items-center.features-item
+      .col-lg-5.order-2.order-lg-1{"data-aos" => "fade-up", "data-aos-delay" => "200"}
+        %h3 Corporis temporibus maiores provident
+        %p
+          Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate
+          velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident.
+        %a.btn.btn-get-started{:href => "#"} Get Started
+      .col-lg-7.order-1.order-lg-2.d-flex.align-items-center{"data-aos" => "zoom-out", "data-aos-delay" => "100"}
+        .image-stack
+          %img.stack-front{:alt => "", :src => "/assets/public/assets/img/features-light-1.jpg"}/
+          %img.stack-back{:alt => "", :src => "/assets/public/assets/img/features-light-2.jpg"}/
+    / Features Item
+    .row.gy-4.align-items-stretch.justify-content-between.features-item
+      .col-lg-6.d-flex.align-items-center.features-img-bg{"data-aos" => "zoom-out"}
+        %img.img-fluid{:alt => "", :src => "/assets/public/assets/img/features-light-3.jpg"}/
+      .col-lg-5.d-flex.justify-content-center.flex-column{"data-aos" => "fade-up"}
+        %h3 Sunt consequatur ad ut est nulla
+        %p Cupiditate placeat cupiditate placeat est ipsam culpa. Delectus quia minima quod. Sunt saepe odit aut quia voluptatem hic voluptas dolor doloremque.
+        %ul
+          %li
+            %i.bi.bi-check
+            %span Ullamco laboris nisi ut aliquip ex ea commodo consequat.
+          %li
+            %i.bi.bi-check
+            %span Duis aute irure dolor in reprehenderit in voluptate velit.
+          %li
+            %i.bi.bi-check
+            = succeed "." do
+              %span Facilis ut et voluptatem aperiam. Autem soluta ad fugiat
+        %a.btn.btn-get-started.align-self-start{:href => "#"} Get Started
+    / Features Item
+/ /Features Section
+

@@ -1,0 +1,17 @@
+%section#hero.hero.section.dark-background
+  %img{:alt => "", "data-aos" => "fade-in", :src => "/assets/public/assets/img/hero-bg.jpg"}/
+  .container
+    .row
+      .col-lg-10
+        %h2{"data-aos" => "fade-up", "data-aos-delay" => "100"} Welcome to Our Website
+        %p{"data-aos" => "fade-up", "data-aos-delay" => "200"} We are team of talented designers making websites with Bootstrap
+      .col-lg-5{"data-aos" => "fade-up", "data-aos-delay" => "300"}
+        %form.php-email-form{:action => "forms/newsletter.php", :method => "post"}
+          .sign-up-form
+            %input{:name => "email", :type => "email"}/
+            %input{:type => "submit", :value => "Subscribe"}/
+          .loading Loading
+          .error-message
+          .sent-message Your subscription request has been sent. Thank you!
+/ /Hero Section
+
