@@ -20,3 +20,11 @@ es:
     phone_number: '+1 954-592-2500'
     email: 'Correo electrónico:'
     email_address: 'info@PropiedadesUSA.com'
+    hero:
+      title: "Invierte con confianza en bienes raíces en EE.UU. desde América Latina"
+      subtitle: "Protege tu patrimonio y recibe ingresos mensuales en dólares"
+      form:
+        submit_button: "Suscribirse"
+        loading_message: "Cargando"
+        sent_message: "Tu solicitud de suscripción ha sido enviada. ¡Gracias!"
+

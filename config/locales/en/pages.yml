@@ -20,3 +20,11 @@ en:
     phone_number: '+1 954-592-2500'
     email: 'Email:'
     email_address: 'info@PropiedadedUSA.com'
+    hero:
+      title: "Invest with confidence in real estate in the U.S. from Latin America"
+      subtitle: "Protect your wealth and receive monthly income in dollars"
+      form:
+        submit_button: "Subscribe"
+        loading_message: "Loading"
+        sent_message: "Your subscription request has been sent. Thank you!"
+    clients:

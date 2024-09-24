@@ -3,13 +3,21 @@
   .container
     .row
       .col-lg-10
-        %h2{"data-aos" => "fade-up", "data-aos-delay" => "100"} Welcome to Our Website
-        %p{"data-aos" => "fade-up", "data-aos-delay" => "200"} We are team of talented designers making websites with Bootstrap
+        %h2{"data-aos" => "fade-up", "data-aos-delay" => "100"}
+          = t('pages.hero.title')
+        %p{"data-aos" => "fade-up", "data-aos-delay" => "200"}
+          = t('pages.hero.subtitle')
+
       .col-lg-5{"data-aos" => "fade-up", "data-aos-delay" => "300"}
-        %form.php-email-form{:action => "forms/newsletter.php", :method => "post"}
+        = simple_form_for Contact.new, input_html: {class: 'form-control'} do |f|
           .sign-up-form
-            %input{:name => "email", :type => "email"}/
-            %input{:type => "submit", :value => "Subscribe"}/
+            = f.input :email, label: false,  input_html: { class: "form-control", placeholder: 'Email' }
+            %input{:type => "submit", value: t('pages.hero.form.submit_button')}/
+
+        -#%form.php-email-form{:action => "forms/newsletter.php", :method => "post"}
+          .sign-up-form
+            %input{:name => "email", :type => "email", }/
+            %input{:type => "submit", value: t('pages.hero.form.submit_button')}/
           .loading Loading
           .error-message
           .sent-message Your subscription request has been sent. Thank you!
