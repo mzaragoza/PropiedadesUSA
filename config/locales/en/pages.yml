@@ -92,4 +92,13 @@ en:
       title: 'Ready to Take the Next Step?'
       body: 'Investing in real estate can be a transformative journey, and we are here to guide you every step of the way. Whether you’re a seasoned investor or just starting out, our team of experts is ready to provide the insights and support you need to succeed. Don’t wait any longer—let’s explore the opportunities that await you. Contact us today to schedule a consultation and start building your investment portfolio!'
       btn: 'Request a Free Consultation'
+    testimonials:
+      title: "What Our Clients Say"
+      body: "Discover how our clients have benefited from our services. Their experiences highlight our commitment to excellence and customer satisfaction."
+      testimonial:
+        name: 'Sara Wilsson'
+        title: 'Designer'
+        body: "Working with PropiedadesUSA has transformed my approach to property investment. Their insights and support are invaluable!"
+
+
 

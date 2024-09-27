@@ -92,4 +92,11 @@ es:
       title: '¿Listo para Dar el Siguiente Paso?'
       body: 'Invertir en bienes raíces puede ser un viaje transformador, y estamos aquí para guiarle en cada paso del camino. Ya sea que sea un inversor experimentado o esté comenzando, nuestro equipo de expertos está listo para proporcionarle la información y el apoyo que necesita para tener éxito. No espere más—explore las oportunidades que le esperan. ¡Contáctenos hoy para programar una consulta y comience a construir su portafolio de inversiones!'
       btn: 'Solicitar una Consulta Gratuita'
+    testimonials:
+      title: "Lo Que Dicen Nuestros Clientes"
+      body: "Descubre cómo nuestros clientes han beneficiado de nuestros servicios. Sus experiencias destacan nuestro compromiso con la excelencia y la satisfacción del cliente."
+      testimonial:
+        name: 'Sara Wilsson'
+        title: 'Diseñadora'
+        body: "Trabajar con PropiedadesUSA ha transformado mi enfoque hacia la inversión inmobiliaria. ¡Sus conocimientos y apoyo son invaluables!"
 

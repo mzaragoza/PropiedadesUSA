@@ -41,4 +41,14 @@ class Page
       {image: '/assets/public/assets/img/team/team-6.jpg', name: 'Josepha Palas', title: 'Operation'},
     ]
   end
+
+  def self.testimonial
+    [
+      {image: '/assets/public/assets/img/testimonials/testimonials-1.jpg', name: 'Saul Goodman', title: 'Ceo & Founder', },
+      {image: '/assets/public/assets/img/testimonials/testimonials-2.jpg', name: '1 Saul Goodman', title: 'Ceo & Founder', },
+      {image: '/assets/public/assets/img/testimonials/testimonials-3.jpg', name: '2 Saul Goodman', title: 'Ceo & Founder', },
+      {image: '/assets/public/assets/img/testimonials/testimonials-4.jpg', name: '2 Saul Goodman', title: 'Ceo & Founder', },
+      {image: '/assets/public/assets/img/testimonials/testimonials-5.jpg', name: '2 Saul Goodman', title: 'Ceo & Founder', }
+    ]
+  end
 end
