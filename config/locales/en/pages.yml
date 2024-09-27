@@ -39,3 +39,8 @@ en:
       real_estate_body: "We help you identify prime real estate opportunities by conducting in-depth market research and leveraging our extensive network. Whether you're looking for residential, or multi-family properties, we ensure you find the best investment options that align with your financial goals."
       taxes_title: 'Taxes'
       taxes_body: 'We provide expert tax guidance to help you maximize deductions and minimize liabilities on your real estate investments. Our team ensures that your portfolio is structured for optimal tax efficiency, staying compliant with regulations while taking advantage of all available tax benefits.'
+    stats:
+      clients: 'Clients'
+      properties: 'Properties under management'
+      years_of_experience: 'Years of Experience'
+      total_investment_value: 'Total Investment Value'

@@ -39,4 +39,10 @@ es:
       real_estate_body: 'Te ayudamos a identificar oportunidades inmobiliarias clave mediante un análisis de mercado exhaustivo y aprovechando nuestra amplia red. Ya sea que busques propiedades residenciales o multifamiliares, nos aseguramos de que encuentres las mejores opciones de inversión que se alineen con tus objetivos financieros.'
       taxes_title: 'Impuestos'
       taxes_body: 'Brindamos asesoría experta en impuestos para ayudarte a maximizar deducciones y minimizar pasivos en tus inversiones inmobiliarias. Nuestro equipo garantiza que tu portafolio esté estructurado para una eficiencia fiscal óptima, cumpliendo con las normativas y aprovechando todos los beneficios fiscales disponibles.'
+    stats:
+      clients: 'Clientes'
+      properties: 'Propiedades bajo gestión'
+      years_of_experience: 'Años de Experiencia'
+      total_investment_value: 'Valor Total de Inversión'
+
 
