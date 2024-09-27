@@ -2,29 +2,25 @@
 %section#team.team.section.light-background
   / Section Title
   .container.section-title{"data-aos" => "fade-up"}
-    %h2 Team
-    %p Necessitatibus eius consequatur ex aliquid fuga eum quidem sint consectetur velit
+    %h2
+      = t('pages.team.title')
+    %p
+      = t('pages.team.body')
   / End Section Title
   .container
     .row.gy-5
-      .col-lg-4.col-md-6.member{"data-aos" => "fade-up", "data-aos-delay" => "100"}
-        .member-img
-          %img.img-fluid{:alt => "", :src => "/assets/public/assets/img/team/team-1.jpg"}/
-          .social
-            %a{:href => "#"}
-              %i.bi.bi-twitter-x
-            %a{:href => "#"}
-              %i.bi.bi-facebook
-            %a{:href => "#"}
-              %i.bi.bi-instagram
-            %a{:href => "#"}
-              %i.bi.bi-linkedin
-        .member-info.text-center
-          %h4 Walter White
-          %span Chief Executive Officer
-          %p Aliquam iure quaerat voluptatem praesentium possimus unde laudantium vel dolorum distinctio dire flow
-      / End Team Member
-      .col-lg-4.col-md-6.member{"data-aos" => "fade-up", "data-aos-delay" => "200"}
+      - Page.team.each do |team|
+
+        .col-lg-4.col-md-6.member{"data-aos" => "fade-up", "data-aos-delay" => "100"}
+          .member-img
+            %img.img-fluid{:alt => "#{team[:name]}", :src => "#{team[:image]}"}/
+          .member-info.text-center
+            %h4
+              = team[:name]
+            %span
+              = team[:title]
+        / End Team Member
+-#      .col-lg-4.col-md-6.member{"data-aos" => "fade-up", "data-aos-delay" => "200"}
         .member-img
           %img.img-fluid{:alt => "", :src => "/assets/public/assets/img/team/team-2.jpg"}/
           .social

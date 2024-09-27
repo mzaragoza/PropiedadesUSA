@@ -30,4 +30,15 @@ class Page
       {image: '/assets/public/assets/img/masonry-portfolio/multifamily5.png', kind: 'multifamily'},
     ]
   end
+
+  def self.team
+    [
+      {image: '/assets/public/assets/img/team/team-1.jpg', name: 'Walter White', title: 'Chief Executive Officer'},
+      {image: '/assets/public/assets/img/team/team-2.jpg', name: 'Sarah Jhonson', title: 'Product Manager'},
+      {image: '/assets/public/assets/img/team/team-3.jpg', name: 'William Anderson', title: 'CTO'},
+      {image: '/assets/public/assets/img/team/team-4.jpg', name: 'Amanda Jepson', title: 'Accountant'},
+      {image: '/assets/public/assets/img/team/team-5.jpg', name: 'Brian Doe', title: 'Marketing'},
+      {image: '/assets/public/assets/img/team/team-6.jpg', name: 'Josepha Palas', title: 'Operation'},
+    ]
+  end
 end
