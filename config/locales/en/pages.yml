@@ -28,3 +28,14 @@ en:
         loading_message: "Loading"
         sent_message: "Your subscription request has been sent. Thank you!"
     clients:
+    about:
+      title: 'About Us'
+      subtitle: 'Our team is composed of experienced and highly skilled professionals, focused on building long-term relationships.'
+      full_service_title: 'Full-Service Commitment'
+      full_service_body: 'We work with you from the moment you decide to invest, providing comprehensive support throughout the entire process—from acquisition to ongoing property management—ensuring your investment is expertly managed every step of the way.'
+      incorporation_title: 'Incorporating'
+      incorporation_body: 'We assist you in incorporating your business seamlessly, guiding you through the legal and administrative processes to establish the right corporate structure. Our expert team ensures that all requirements are met, allowing you to focus on growing your investments.'
+      real_estate_title: 'Real Estate'
+      real_estate_body: "We help you identify prime real estate opportunities by conducting in-depth market research and leveraging our extensive network. Whether you're looking for residential, or multi-family properties, we ensure you find the best investment options that align with your financial goals."
+      taxes_title: 'Taxes'
+      taxes_body: 'We provide expert tax guidance to help you maximize deductions and minimize liabilities on your real estate investments. Our team ensures that your portfolio is structured for optimal tax efficiency, staying compliant with regulations while taking advantage of all available tax benefits.'

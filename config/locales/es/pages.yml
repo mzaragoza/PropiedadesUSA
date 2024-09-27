@@ -27,4 +27,16 @@ es:
         submit_button: "Suscribirse"
         loading_message: "Cargando"
         sent_message: "Tu solicitud de suscripción ha sido enviada. ¡Gracias!"
+    clients:
+    about:
+      title: 'Sobre Nosotros'
+      subtitle: 'Nuestro equipo está compuesto por profesionales con experiencia y altamente capacitados, enfocados en construir relaciones a largo plazo.'
+      full_service_title: 'Compromiso de Servicio Integral'
+      full_service_body: 'Trabajamos contigo desde el momento en que decides invertir, brindándote un apoyo integral a lo largo de todo el proceso, desde la adquisición hasta la gestión continua de propiedades, asegurando que tu inversión esté gestionada de manera experta en cada paso.'
+      incorporation_title: 'Incorporación'
+      incorporation_body: 'Te asistimos en la incorporación de tu negocio sin inconvenientes, guiándote a través de los procesos legales y administrativos para establecer la estructura corporativa adecuada. Nuestro equipo de expertos asegura que se cumplan todos los requisitos, permitiéndote centrarte en el crecimiento de tus inversiones.'
+      real_estate_title: 'Bienes Raíces'
+      real_estate_body: 'Te ayudamos a identificar oportunidades inmobiliarias clave mediante un análisis de mercado exhaustivo y aprovechando nuestra amplia red. Ya sea que busques propiedades residenciales o multifamiliares, nos aseguramos de que encuentres las mejores opciones de inversión que se alineen con tus objetivos financieros.'
+      taxes_title: 'Impuestos'
+      taxes_body: 'Brindamos asesoría experta en impuestos para ayudarte a maximizar deducciones y minimizar pasivos en tus inversiones inmobiliarias. Nuestro equipo garantiza que tu portafolio esté estructurado para una eficiencia fiscal óptima, cumpliendo con las normativas y aprovechando todos los beneficios fiscales disponibles.'
 
