@@ -65,3 +65,9 @@ es:
       taxes:
         title: 'Impuestos'
         body: 'Ofrecemos asesoría experta en impuestos para ayudarte a maximizar deducciones y minimizar pasivos, asegurando que tu portafolio inmobiliario esté estructurado para una eficiencia fiscal óptima.'
+    portfolio:
+      title: 'Portafolio'
+      body: 'Nuestro portafolio presenta una variedad diversa de propiedades de inversión en varios mercados, reflejando nuestro compromiso con la calidad y el crecimiento. Cada propiedad es cuidadosamente seleccionada en función de un análisis de mercado exhaustivo y la debida diligencia, asegurando rendimientos óptimos para nuestros inversionistas. Nos enorgullecemos de mantener relaciones sólidas con inquilinos y comunidades, contribuyendo al éxito a largo plazo de nuestras inversiones. Explora nuestro portafolio para ver las oportunidades potenciales disponibles para ti.'
+      single_family: 'Unifamiliares'
+      multifamily: 'Multifamiliares'
+
