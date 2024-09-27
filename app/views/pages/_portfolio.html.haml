@@ -2,19 +2,31 @@
 %section#portfolio.portfolio.section
   / Section Title
   .container.section-title{"data-aos" => "fade-up"}
-    %h2 Portfolio
-    %p Necessitatibus eius consequatur ex aliquid fuga eum quidem sint consectetur velit
+    %h2
+      = t('pages.portfolio.title')
+    %p
+      = t('pages.portfolio.body')
   / End Section Title
   .container
     .isotope-layout{"data-default-filter" => "*", "data-layout" => "masonry", "data-sort" => "original-order"}
       %ul.portfolio-filters.isotope-filters{"data-aos" => "fade-up", "data-aos-delay" => "100"}
         %li.filter-active{"data-filter" => "*"} All
-        %li{"data-filter" => ".filter-app"} App
-        %li{"data-filter" => ".filter-product"} Card
-        %li{"data-filter" => ".filter-branding"} Web
+        %li{"data-filter" => ".filter-single-family"}
+          = t('pages.portfolio.single_family')
+        %li{"data-filter" => ".filter-multifamily"}
+          = t('pages.portfolio.multifamily')
       / End Portfolio Filters
       .row.gy-4.isotope-container{"data-aos" => "fade-up", "data-aos-delay" => "200"}
-        .col-lg-4.col-md-6.portfolio-item.isotope-item.filter-app
+        - Page.portfolio.shuffle.each do |portfolio|
+          .col-lg-4.col-md-6.portfolio-item.isotope-item{class: "filter-#{portfolio[:kind]}"}
+            %img.img-fluid{alt: portfolio[:kind], src: portfolio[:image]}/
+            .portfolio-info
+              %h4= portfolio[:kind].titleize
+              %a.glightbox.preview-link{"data-gallery" => "portfolio-gallery-app", :href => "#{portfolio[:image]}", :title => "#{portfolio[:kind].titleize}"}
+                %i.bi.bi-zoom-in
+          / End Portfolio Item
+-#
+        .col-lg-4.col-md-6.portfolio-item.isotope-item.filter-single-family
           %img.img-fluid{:alt => "", :src => "/assets/public/assets/img/masonry-portfolio/masonry-portfolio-1.jpg"}/
           .portfolio-info
             %h4 App 1
@@ -24,7 +36,7 @@
             %a.details-link{:href => "portfolio-details.html", :title => "More Details"}
               %i.bi.bi-link-45deg
         / End Portfolio Item
-        .col-lg-4.col-md-6.portfolio-item.isotope-item.filter-product
+        .col-lg-4.col-md-6.portfolio-item.isotope-item.filter-multifamily
           %img.img-fluid{:alt => "", :src => "/assets/public/assets/img/masonry-portfolio/masonry-portfolio-2.jpg"}/
           .portfolio-info
             %h4 Product 1
@@ -44,7 +56,7 @@
             %a.details-link{:href => "portfolio-details.html", :title => "More Details"}
               %i.bi.bi-link-45deg
         / End Portfolio Item
-        .col-lg-4.col-md-6.portfolio-item.isotope-item.filter-app
+        .col-lg-4.col-md-6.portfolio-item.isotope-item.filter-single-family
           %img.img-fluid{:alt => "", :src => "/assets/public/assets/img/masonry-portfolio/masonry-portfolio-4.jpg"}/
           .portfolio-info
             %h4 App 2
@@ -54,7 +66,7 @@
             %a.details-link{:href => "portfolio-details.html", :title => "More Details"}
               %i.bi.bi-link-45deg
         / End Portfolio Item
-        .col-lg-4.col-md-6.portfolio-item.isotope-item.filter-product
+        .col-lg-4.col-md-6.portfolio-item.isotope-item.filter-multifamily
           %img.img-fluid{:alt => "", :src => "/assets/public/assets/img/masonry-portfolio/masonry-portfolio-5.jpg"}/
           .portfolio-info
             %h4 Product 2
@@ -74,7 +86,7 @@
             %a.details-link{:href => "portfolio-details.html", :title => "More Details"}
               %i.bi.bi-link-45deg
         / End Portfolio Item
-        .col-lg-4.col-md-6.portfolio-item.isotope-item.filter-app
+        .col-lg-4.col-md-6.portfolio-item.isotope-item.filter-single-family
           %img.img-fluid{:alt => "", :src => "/assets/public/assets/img/masonry-portfolio/masonry-portfolio-7.jpg"}/
           .portfolio-info
             %h4 App 3
@@ -84,7 +96,7 @@
             %a.details-link{:href => "portfolio-details.html", :title => "More Details"}
               %i.bi.bi-link-45deg
         / End Portfolio Item
-        .col-lg-4.col-md-6.portfolio-item.isotope-item.filter-product
+        .col-lg-4.col-md-6.portfolio-item.isotope-item.filter-multifamily
           %img.img-fluid{:alt => "", :src => "/assets/public/assets/img/masonry-portfolio/masonry-portfolio-8.jpg"}/
           .portfolio-info
             %h4 Product 3

@@ -65,4 +65,9 @@ en:
       taxes:
         title: 'Taxes'
         body: 'We offer expert tax guidance to help you maximize deductions and minimize liabilities, ensuring your real estate portfolio is structured for optimal tax efficiency.'
+    portfolio:
+      title: 'Portfolio'
+      body: 'Our portfolio showcases a diverse range of investment properties across various markets, reflecting our commitment to quality and growth. Each property is carefully selected based on thorough market analysis and due diligence, ensuring optimal returns for our investors. We pride ourselves on maintaining strong relationships with tenants and communities, contributing to the long-term success of our investments. Explore our portfolio to see the potential opportunities available for you.'
+      single_family: 'Single Family'
+      multifamily: 'Multifamily'
 
