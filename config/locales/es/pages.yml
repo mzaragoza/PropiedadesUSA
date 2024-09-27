@@ -88,3 +88,8 @@ es:
     team:
       title: 'Nuestro Equipo'
       body: 'Nuestro equipo está compuesto por profesionales dedicados con una experiencia diversa en inversión en bienes raíces, gestión de propiedades y planificación financiera. Creemos que la colaboración y la innovación son clave para ofrecer un servicio excepcional y lograr resultados óptimos para nuestros clientes. Cada miembro aporta una gran experiencia y un compromiso con la excelencia, trabajando juntos para proporcionar soluciones personalizadas que satisfagan sus objetivos de inversión. Nos enorgullecemos de fomentar relaciones sólidas con nuestros clientes, asegurando que cuenten con el apoyo y la orientación que necesitan en cada paso de su viaje de inversión. Conozca a nuestro equipo de expertos que están aquí para ayudarle a tener éxito.'
+    call_to_action:
+      title: '¿Listo para Dar el Siguiente Paso?'
+      body: 'Invertir en bienes raíces puede ser un viaje transformador, y estamos aquí para guiarle en cada paso del camino. Ya sea que sea un inversor experimentado o esté comenzando, nuestro equipo de expertos está listo para proporcionarle la información y el apoyo que necesita para tener éxito. No espere más—explore las oportunidades que le esperan. ¡Contáctenos hoy para programar una consulta y comience a construir su portafolio de inversiones!'
+      btn: 'Solicitar una Consulta Gratuita'
+

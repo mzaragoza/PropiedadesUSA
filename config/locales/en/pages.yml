@@ -88,4 +88,8 @@ en:
     team:
       title: 'Our Team'
       body: 'Our team is composed of dedicated professionals with diverse expertise in real estate investment, property management, and financial planning. We believe that collaboration and innovation are key to delivering exceptional service and achieving optimal results for our clients. Each member brings a wealth of experience and a commitment to excellence, working together to provide tailored solutions that meet your investment goals. We pride ourselves on fostering strong relationships with our clients, ensuring that you have the support and guidance you need at every step of your investment journey. Meet our team of experts who are here to help you succeed.'
+    call_to_action:
+      title: 'Ready to Take the Next Step?'
+      body: 'Investing in real estate can be a transformative journey, and we are here to guide you every step of the way. Whether you’re a seasoned investor or just starting out, our team of experts is ready to provide the insights and support you need to succeed. Don’t wait any longer—let’s explore the opportunities that await you. Contact us today to schedule a consultation and start building your investment portfolio!'
+      btn: 'Request a Free Consultation'
 
