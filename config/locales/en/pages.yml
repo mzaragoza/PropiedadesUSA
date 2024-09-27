@@ -70,4 +70,19 @@ en:
       body: 'Our portfolio showcases a diverse range of investment properties across various markets, reflecting our commitment to quality and growth. Each property is carefully selected based on thorough market analysis and due diligence, ensuring optimal returns for our investors. We pride ourselves on maintaining strong relationships with tenants and communities, contributing to the long-term success of our investments. Explore our portfolio to see the potential opportunities available for you.'
       single_family: 'Single Family'
       multifamily: 'Multifamily'
+    faq:
+      title: 'Frequently Asked'
+      title2: 'Questions'
+      body: 'Our FAQ section aims to address common inquiries regarding our services, investment properties, and processes. We understand that investing in real estate can be complex, and we are here to provide clarity and guidance. Below, you will find answers to some of the most frequently asked questions. If you have additional questions or need further assistance, please feel free to contact us.'
+      questions:
+        question1: 'What types of properties do you manage?'
+        answer1: 'We manage a diverse range of investment properties, including single-family homes, multifamily units, commercial properties, and more. Our portfolio is tailored to meet various investment goals and market demands.'
+        question2: 'How do you determine the value of a property?'
+        answer2: 'We conduct thorough market analysis, including comparable sales, location assessments, and property condition evaluations, to determine the fair market value of a property. This ensures that our clients make informed investment decisions.'
+        question3: 'What are the benefits of investing in real estate?'
+        answer3: 'Investing in real estate offers several benefits, including potential for appreciation, steady cash flow from rental income, tax advantages, and portfolio diversification. Real estate can be a stable long-term investment compared to other asset classes.'
+        question4: 'How does your property management service work?'
+        answer4: 'Our property management service includes tenant screening, lease management, maintenance coordination, rent collection, and financial reporting. We handle all aspects of property management to ensure a hassle-free experience for our clients.'
+        question5: 'What should I consider before investing in real estate?'
+        answer5: 'Before investing in real estate, consider factors such as your financial goals, risk tolerance, the local market conditions, property type, and the potential return on investment. We recommend consulting with our team to evaluate your options and create a tailored investment strategy.'
 

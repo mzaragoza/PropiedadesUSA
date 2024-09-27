@@ -70,4 +70,19 @@ es:
       body: 'Nuestro portafolio presenta una variedad diversa de propiedades de inversión en varios mercados, reflejando nuestro compromiso con la calidad y el crecimiento. Cada propiedad es cuidadosamente seleccionada en función de un análisis de mercado exhaustivo y la debida diligencia, asegurando rendimientos óptimos para nuestros inversionistas. Nos enorgullecemos de mantener relaciones sólidas con inquilinos y comunidades, contribuyendo al éxito a largo plazo de nuestras inversiones. Explora nuestro portafolio para ver las oportunidades potenciales disponibles para ti.'
       single_family: 'Unifamiliares'
       multifamily: 'Multifamiliares'
+    faq:
+      title: 'Preguntas'
+      title2: 'Frecuentes'
+      body: 'Nuestra sección de Preguntas Frecuentes tiene como objetivo abordar las consultas comunes sobre nuestros servicios, propiedades de inversión y procesos. Entendemos que invertir en bienes raíces puede ser complejo, y estamos aquí para proporcionar claridad y orientación. A continuación, encontrará respuestas a algunas de las preguntas más frecuentes. Si tiene preguntas adicionales o necesita más ayuda, no dude en ponerse en contacto con nosotros.'
+      questions:
+        question1: '¿Qué tipos de propiedades gestionan?'
+        answer1: 'Gestionamos una variedad diversa de propiedades de inversión, incluyendo casas unifamiliares, unidades multifamiliares, propiedades comerciales y más. Nuestro portafolio está diseñado para satisfacer diversos objetivos de inversión y demandas del mercado.'
+        question2: '¿Cómo determinan el valor de una propiedad?'
+        answer2: 'Realizamos un análisis de mercado exhaustivo, incluyendo ventas comparables, evaluaciones de ubicación y evaluaciones de condiciones de la propiedad, para determinar el valor de mercado justo de una propiedad. Esto asegura que nuestros clientes tomen decisiones de inversión informadas.'
+        question3: '¿Cuáles son los beneficios de invertir en bienes raíces?'
+        answer3: 'Invertir en bienes raíces ofrece varios beneficios, incluyendo el potencial de apreciación, flujo de efectivo constante de los ingresos por alquiler, ventajas fiscales y diversificación de la cartera. Los bienes raíces pueden ser una inversión a largo plazo estable en comparación con otras clases de activos.'
+        question4: '¿Cómo funciona su servicio de gestión de propiedades?'
+        answer4: 'Nuestro servicio de gestión de propiedades incluye la selección de inquilinos, gestión de arrendamientos, coordinación de mantenimiento, cobro de alquileres e informes financieros. Nos encargamos de todos los aspectos de la gestión de propiedades para garantizar una experiencia sin complicaciones para nuestros clientes.'
+        question5: '¿Qué debo considerar antes de invertir en bienes raíces?'
+        answer5: 'Antes de invertir en bienes raíces, considere factores como sus objetivos financieros, tolerancia al riesgo, las condiciones del mercado local, el tipo de propiedad y el potencial de retorno de la inversión. Recomendamos consultar con nuestro equipo para evaluar sus opciones y crear una estrategia de inversión personalizada.'
 
