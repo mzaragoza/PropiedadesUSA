@@ -44,3 +44,25 @@ en:
       properties: 'Properties under management'
       years_of_experience: 'Years of Experience'
       total_investment_value: 'Total Investment Value'
+    services:
+      title: 'Services'
+      full_service: 'We offer full-service investment properties.'
+      incorporation:
+        title: 'Incorporation'
+        body: 'We assist you in incorporating your business seamlessly, ensuring you choose the right structure and comply with all legal requirements, so you can focus on your investment strategy.'
+      banking:
+        title: 'Banking'
+        body: 'Our banking services include guidance on setting up business accounts, securing financing, and managing cash flow to support your investment goals.'
+      real_estate:
+        title: 'Real Estate'
+        body: 'We help you identify prime real estate opportunities through in-depth market research and leverage our extensive network to ensure you find the best investments.'
+      section_8:
+        title: 'Section 8'
+        body: 'We provide expertise in navigating Section 8 housing programs, helping you maximize rental income while ensuring compliance with government regulations.'
+      property_management:
+        title: 'Property Management'
+        body: 'Our comprehensive property management services ensure your investments are well-maintained, tenant relations are managed effectively, and operational issues are handled promptly.'
+      taxes:
+        title: 'Taxes'
+        body: 'We offer expert tax guidance to help you maximize deductions and minimize liabilities, ensuring your real estate portfolio is structured for optimal tax efficiency.'
+

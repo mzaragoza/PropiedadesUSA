@@ -44,5 +44,24 @@ es:
       properties: 'Propiedades bajo gestión'
       years_of_experience: 'Años de Experiencia'
       total_investment_value: 'Valor Total de Inversión'
-
-
+    services:
+      title: 'Servicios'
+      full_service: 'Ofrecemos propiedades de inversión con servicio integral.'
+      incorporation:
+        title: 'Incorporación'
+        body: 'Te asistimos en la incorporación de tu negocio sin inconvenientes, asegurando que elijas la estructura adecuada y cumpla con todos los requisitos legales, para que puedas centrarte en tu estrategia de inversión.'
+      banking:
+        title: 'Banca'
+        body: 'Nuestros servicios bancarios incluyen orientación sobre la apertura de cuentas empresariales, asegurando financiamiento y gestionando el flujo de efectivo para apoyar tus objetivos de inversión.'
+      real_estate:
+        title: 'Bienes Raíces'
+        body: 'Te ayudamos a identificar oportunidades inmobiliarias clave mediante un análisis de mercado exhaustivo y aprovechando nuestra amplia red para asegurarte de encontrar las mejores inversiones.'
+      section_8:
+        title: 'Sección 8'
+        body: 'Proporcionamos experiencia en la navegación de los programas de vivienda de la Sección 8, ayudándote a maximizar los ingresos por alquiler mientras garantizamos el cumplimiento de las regulaciones gubernamentales.'
+      property_management:
+        title: 'Gestión de Propiedades'
+        body: 'Nuestros servicios integrales de gestión de propiedades aseguran que tus inversiones estén bien mantenidas, las relaciones con los inquilinos se gestionen de manera efectiva y los problemas operativos se manejen de manera oportuna.'
+      taxes:
+        title: 'Impuestos'
+        body: 'Ofrecemos asesoría experta en impuestos para ayudarte a maximizar deducciones y minimizar pasivos, asegurando que tu portafolio inmobiliario esté estructurado para una eficiencia fiscal óptima.'
