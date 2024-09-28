@@ -19,6 +19,9 @@ class ContactsController < ApplicationController
       :first_name,
       :last_name,
       :email,
+      :phone,
+      :subject,
+      :message,
     )
   end
 end

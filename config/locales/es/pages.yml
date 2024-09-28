@@ -108,4 +108,10 @@ es:
       open_hours: "Horario de Atención"
       monday_friday: "Lunes - Viernes"
       nine_to_five: "9:00AM - 05:00PM"
-
+      first_name: "Nombre"
+      last_name: "Apellido"
+      email: "Correo Electrónico"
+      phone: "Teléfono"
+      subject: "Asunto"
+      message: "Mensaje"
+      btn: "Mandar Mensaje"

@@ -48,7 +48,25 @@
                 = t('pages.contact.nine_to_five')
           / End Info Item
       .col-lg-6
-        %form.php-email-form{:action => "forms/contact.php", "data-aos" => "fade-up", "data-aos-delay" => "200", :method => "post"}
+        = simple_form_for Contact.new, input_html: {class: 'form-control'} do |f|
+          .row.gy-4
+            .col-md-6
+              = f.input :first_name, input_html: { class: "form-control", :placeholder => "#{t('pages.contact.first_name')}" }, label: false
+            .col-md-6
+              = f.input :last_name, input_html: { class: "form-control", :placeholder => "#{t('pages.contact.last_name')}" }, label: false
+            .col-md-6
+              = f.input :email, input_html: { class: "form-control", :placeholder => "#{t('pages.contact.email')}" }, label: false
+            .col-md-6
+              = f.input :phone, input_html: { class: "form-control", :placeholder => "#{t('pages.contact.phone')}" }, label: false
+            .col-md-12
+              = f.input :subject, input_html: { class: "form-control", :placeholder => "#{t('pages.contact.subject')}" }, label: false
+            .col-md-12
+              = f.input :message, input_html: { class: "form-control", :placeholder => "#{t('pages.contact.message')}" }, label: false, as: :text
+            .col-12.text-center
+              %button{:type => "submit"}
+                = t('pages.contact.btn')
+      -#.col-lg-6
+        %form.php-email-form{:action => "/contacts", "data-aos" => "fade-up", "data-aos-delay" => "200", :method => "post"}
           .row.gy-4
             .col-md-6
               %input.form-control{:name => "name", :placeholder => "Your Name", :required => "", :type => "text"}/

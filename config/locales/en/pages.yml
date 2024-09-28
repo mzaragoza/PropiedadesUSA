@@ -108,4 +108,10 @@ en:
       open_hours: "Open Hours"
       monday_friday: "Monday - Friday"
       nine_to_five: "9:00AM - 05:00PM"
-
+      first_name: "First Name"
+      last_name: "Last Name"
+      email: "Email"
+      phone: "Phone"
+      subject: "Subject"
+      message: "Message"
+      btm: "Send Message"
