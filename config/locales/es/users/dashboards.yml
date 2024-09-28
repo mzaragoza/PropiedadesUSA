@@ -1,0 +1,28 @@
+es:
+  users:
+    dashboards:
+      service_type: "Tipo de Servicio"
+      description: "Descripción"
+      incorporating: "Constitución de Empresa"
+      incorporating_description: "Formación legal de tu entidad empresarial."
+      bank: "Banco"
+      bank_description: "Asistencia con servicios bancarios y apertura de cuentas."
+      find_real_estate: "Buscar Bienes Raíces"
+      find_real_estate_description: "Ayuda para localizar las mejores ofertas inmobiliarias."
+      offer: "Oferta"
+      offer_description: "Guía para realizar y negociar ofertas de propiedades."
+      property_management: "Gestión de Propiedades"
+      insurance: "Seguro"
+      insurance_description: "Ayuda con la obtención de seguros para propiedades."
+      renovation: "Renovación"
+      renovation_description: "Soporte para renovar y mejorar propiedades."
+      tenant_services: "Servicios para Inquilinos"
+      tenant_applications: "Solicitudes de Inquilinos"
+      tenant_applications_description: "Procesamiento de solicitudes de inquilinos y revisión."
+      tenant: "Inquilino"
+      tenant_description: "Gestión de relaciones con inquilinos y soporte."
+      tickets: "Tickets"
+      tickets_description: "Sistema para manejar solicitudes de mantenimiento y tickets."
+      taxes: "Impuestos"
+      taxes_description: "Asistencia con la presentación de impuestos y servicios relacionados."
+

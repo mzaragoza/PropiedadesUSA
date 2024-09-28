@@ -1,0 +1,29 @@
+en:
+  users:
+    dashboards:
+      service_type: "Service Type"
+      description: "Description"
+      incorporating: "Incorporating"
+      incorporating_description: "Legal formation of your business entity."
+      bank: "Bank"
+      bank_description: "Assistance with banking services and account setup."
+      find_real_estate: "Find Real Estate"
+      find_real_estate_description: "Help with locating the best real estate deals."
+      offer: "Offer"
+      offer_description: "Guide through making and negotiating property offers."
+      property_management: "Property Management"
+      insurance: "Insurance"
+      insurance_description: "Help with securing property insurance."
+      renovation: "Renovation"
+      renovation_description: "Support for renovating and upgrading properties."
+      tenant_services: 'Tenant Services'
+      tenant_applications: "Tenant Applications"
+      tenant_applications_description: "Processing tenant applications and screening."
+      tenant: "Tenant"
+      tenant_description: "Management of tenant relations and support."
+      tickets: "Tickets"
+      tickets_description: "System for handling maintenance requests and tickets."
+      taxes: "Taxes"
+      taxes_description: "Assistance with tax filings and related services."
+
+
