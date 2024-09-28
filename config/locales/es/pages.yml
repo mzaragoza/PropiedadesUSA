@@ -43,7 +43,7 @@ es:
       clients: 'Clientes'
       properties: 'Propiedades bajo gestión'
       years_of_experience: 'Años de Experiencia'
-      total_investment_value: 'Valor Total de Inversión'
+      total_investment_value: 'Valor Total de Inversión (M)'
     services:
       title: 'Servicios'
       full_service: 'Ofrecemos propiedades de inversión con servicio integral.'

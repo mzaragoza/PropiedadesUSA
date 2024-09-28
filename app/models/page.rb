@@ -1,11 +1,11 @@
 class Page
 
   def self.clients
-    Date.today.year + Date.today.yday
+    (Date.today.year / 2) + Date.today.yday
   end
 
   def self.properties
-    (Date.today.year + Date.today.yday) * 5.7
+    Page.clients * 5.7
   end
 
   def self.years_of_experience
@@ -13,7 +13,7 @@ class Page
   end
 
   def self.total_investment_value
-    (((Date.today.year + Date.today.yday) * 5.7) * 70000.8)
+    Page.properties * 70.8
   end
 
   def self.portfolio

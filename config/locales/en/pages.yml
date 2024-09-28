@@ -43,7 +43,7 @@ en:
       clients: 'Clients'
       properties: 'Properties under management'
       years_of_experience: 'Years of Experience'
-      total_investment_value: 'Total Investment Value'
+      total_investment_value: 'Total Investment Value (K)'
     services:
       title: 'Services'
       full_service: 'We offer full-service investment properties.'
