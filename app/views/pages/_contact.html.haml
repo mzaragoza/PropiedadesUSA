@@ -2,8 +2,10 @@
 %section#contact.contact.section
   / Section Title
   .container.section-title{"data-aos" => "fade-up"}
-    %h2 Contact
-    %p Necessitatibus eius consequatur ex aliquid fuga eum quidem sint consectetur velit
+    %h2
+      = t('pages.contact.title')
+    %p
+      = t('pages.contact.body')
   / End Section Title
   .container{"data-aos" => "fade-up", "data-aos-delay" => "100"}
     .row.gy-4
@@ -12,30 +14,38 @@
           .col-md-6
             .info-item{"data-aos" => "fade", "data-aos-delay" => "200"}
               %i.bi.bi-geo-alt
-              %h3 Address
-              %p A108 Adam Street
-              %p New York, NY 535022
+              %h3
+                = t('pages.contact.address')
+              %p
+                = t('pages.address1')
+              %p
+                = t('pages.address2')
           / End Info Item
           .col-md-6
             .info-item{"data-aos" => "fade", "data-aos-delay" => "300"}
               %i.bi.bi-telephone
-              %h3 Call Us
-              %p +1 5589 55488 55
-              %p +1 6678 254445 41
+              %h3
+                = t('pages.contact.call_us')
+              %p
+                = t('pages.phone_number')
           / End Info Item
           .col-md-6
             .info-item{"data-aos" => "fade", "data-aos-delay" => "400"}
               %i.bi.bi-envelope
-              %h3 Email Us
-              %p info@example.com
-              %p contact@example.com
+              %h3
+                = t('pages.contact.email_us')
+              %p
+                = t('pages.email_address')
           / End Info Item
           .col-md-6
             .info-item{"data-aos" => "fade", "data-aos-delay" => "500"}
               %i.bi.bi-clock
-              %h3 Open Hours
-              %p Monday - Friday
-              %p 9:00AM - 05:00PM
+              %h3
+                = t('pages.contact.open_hours')
+              %p
+                = t('pages.contact.monday_friday')
+              %p
+                = t('pages.contact.nine_to_five')
           / End Info Item
       .col-lg-6
         %form.php-email-form{:action => "forms/contact.php", "data-aos" => "fade-up", "data-aos-delay" => "200", :method => "post"}

@@ -99,4 +99,13 @@ es:
         name: 'Sara Wilsson'
         title: 'Diseñadora'
         body: "Trabajar con PropiedadesUSA ha transformado mi enfoque hacia la inversión inmobiliaria. ¡Sus conocimientos y apoyo son invaluables!"
+    contact:
+      title: "Contáctanos"
+      body: "Estamos aquí para ayudarte con cualquier pregunta o inquietud. No dudes en ponerte en contacto con nosotros para obtener más información sobre nuestros servicios o para resolver cualquier consulta que puedas tener."
+      address: "Dirección"
+      call_us: "Llámanos"
+      email_us: "Envíanos un Correo"
+      open_hours: "Horario de Atención"
+      monday_friday: "Lunes - Viernes"
+      nine_to_five: "9:00AM - 05:00PM"
 
