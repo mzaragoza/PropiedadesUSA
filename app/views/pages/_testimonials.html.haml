@@ -1,5 +1,5 @@
 / Testimonials Section
-%section#testimonials.testimonials.section.light-background
+.section.testimonials.light-background
   .container
     .row.align-items-center
       .col-lg-5.info{"data-aos" => "fade-up", "data-aos-delay" => "100"}
@@ -7,14 +7,29 @@
           = t('pages.testimonials.title')
         %p
           = t('pages.testimonials.body')
+
       .col-lg-7{"data-aos" => "fade-up", "data-aos-delay" => "200"}
         .swiper.init-swiper
+          %script.swiper-config{"type" => "application/json"}
+            | {
+            |   "loop": true,
+            |   "speed": 600,
+            |   "autoplay": {
+            |     "delay": 5000
+            |   },
+            |   "slidesPerView": "auto",
+            |   "pagination": {
+            |     "el": ".swiper-pagination",
+            |     "type": "bullets",
+            |     "clickable": true
+            |   }
+            | }
           .swiper-wrapper
-            -# Page.testimonial.each do |testimonial|
+            - Page.testimonial.each do |testimonial|
               .swiper-slide
                 .testimonial-item
                   .d-flex
-                    %img.testimonial-img.flex-shrink-0{:alt => "#{testimonial[:name]}", :src => "#{testimonial[:image]}"}/
+                    %img.testimonial-img.flex-shrink-0{"src" => testimonial[:image], "alt" => testimonial[:name]}
                     %div
                       %h3= testimonial[:name]
                       %h4= testimonial[:title]
@@ -28,82 +43,4 @@
                     %i.bi.bi-quote.quote-icon-left
                     %span Proin iaculis purus consequat sem cure digni ssim donec porttitora entum suscipit rhoncus. Accusantium quam, ultricies eget id, aliquam eget nibh et. Maecen aliquam, risus at semper.
                     %i.bi.bi-quote.quote-icon-right
-              / End testimonial item
-            .swiper-slide
-              .testimonial-item
-                .d-flex
-                  %img.testimonial-img.flex-shrink-0{:alt => "", :src => "/assets/public/assets/img/testimonials/testimonials-2.jpg"}/
-                  %div
-                    %h3
-                      = t('pages.testimonials.testimonial.name')
-                    %h4
-                      = t('pages.testimonials.testimonial.title')
-                    .stars
-                      %i.bi.bi-star-fill
-                      %i.bi.bi-star-fill
-                      %i.bi.bi-star-fill
-                      %i.bi.bi-star-fill
-                      %i.bi.bi-star-fill
-                %p
-                  %i.bi.bi-quote.quote-icon-left
-                  %span
-                    = t('pages.testimonials.testimonial.body')
-                  %i.bi.bi-quote.quote-icon-right
-            / End testimonial item
--#            .swiper-slide
-              .testimonial-item
-                .d-flex
-                  %img.testimonial-img.flex-shrink-0{:alt => "", :src => "/assets/public/assets/img/testimonials/testimonials-3.jpg"}/
-                  %div
-                    %h3 Jena Karlis
-                    %h4 Store Owner
-                    .stars
-                      %i.bi.bi-star-fill
-                      %i.bi.bi-star-fill
-                      %i.bi.bi-star-fill
-                      %i.bi.bi-star-fill
-                      %i.bi.bi-star-fill
-                %p
-                  %i.bi.bi-quote.quote-icon-left
-                  %span Enim nisi quem export duis labore cillum quae magna enim sint quorum nulla quem veniam duis minim tempor labore quem eram duis noster aute amet eram fore quis sint minim.
-                  %i.bi.bi-quote.quote-icon-right
-            / End testimonial item
-            .swiper-slide
-              .testimonial-item
-                .d-flex
-                  %img.testimonial-img.flex-shrink-0{:alt => "", :src => "/assets/public/assets/img/testimonials/testimonials-4.jpg"}/
-                  %div
-                    %h3 Matt Brandon
-                    %h4 Freelancer
-                    .stars
-                      %i.bi.bi-star-fill
-                      %i.bi.bi-star-fill
-                      %i.bi.bi-star-fill
-                      %i.bi.bi-star-fill
-                      %i.bi.bi-star-fill
-                %p
-                  %i.bi.bi-quote.quote-icon-left
-                  %span Fugiat enim eram quae cillum dolore dolor amet nulla culpa multos export minim fugiat minim velit minim dolor enim duis veniam ipsum anim magna sunt elit fore quem dolore labore illum veniam.
-                  %i.bi.bi-quote.quote-icon-right
-            / End testimonial item
-            .swiper-slide
-              .testimonial-item
-                .d-flex
-                  %img.testimonial-img.flex-shrink-0{:alt => "", :src => "/assets/public/assets/img/testimonials/testimonials-5.jpg"}/
-                  %div
-                    %h3 John Larson
-                    %h4 Entrepreneur
-                    .stars
-                      %i.bi.bi-star-fill
-                      %i.bi.bi-star-fill
-                      %i.bi.bi-star-fill
-                      %i.bi.bi-star-fill
-                      %i.bi.bi-star-fill
-                %p
-                  %i.bi.bi-quote.quote-icon-left
-                  %span Quis quorum aliqua sint quem legam fore sunt eram irure aliqua veniam tempor noster veniam enim culpa labore duis sunt culpa nulla illum cillum fugiat legam esse veniam culpa fore nisi cillum quid.
-                  %i.bi.bi-quote.quote-icon-right
-            / End testimonial item
           .swiper-pagination
-/ /Testimonials Section
-

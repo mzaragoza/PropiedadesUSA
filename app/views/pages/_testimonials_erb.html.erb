@@ -1,0 +1,80 @@
+<!-- Testimonials Section -->
+    <section id="testimonials" class="testimonials section light-background">
+
+      <div class="container">
+
+        <div class="row align-items-center">
+
+          <div class="col-lg-5 info" data-aos="fade-up" data-aos-delay="100">
+            <h3>
+              <%= t('pages.testimonials.title') %>
+            </h3>
+            <p>
+              <%= t('pages.testimonials.body') %>
+            </p>
+          </div>
+
+          <div class="col-lg-7" data-aos="fade-up" data-aos-delay="200">
+
+            <div class="swiper init-swiper">
+              <script type="application/json" class="swiper-config">
+                {
+                  "loop": true,
+                  "speed": 600,
+                  "autoplay": {
+                    "delay": 5000
+                  },
+                  "slidesPerView": "auto",
+                  "pagination": {
+                    "el": ".swiper-pagination",
+                    "type": "bullets",
+                    "clickable": true
+                  }
+                }
+              </script>
+              <div class="swiper-wrapper">
+                <% Page.testimonial.each do |testimonial| %>
+                    <div class="swiper-slide">
+                      <div class="testimonial-item">
+                        <div class="d-flex">
+                          <img src="<%= testimonial[:image] %>" class="testimonial-img flex-shrink-0" alt="<%= testimonial[:name]%>">
+                          <div>
+                            <h3><%= testimonial[:name] %></h3>
+                            <h4>
+                              <% if session[:locale] == 'en' %>
+                                <%= testimonial[:title] %>
+                              <% elsif session[:locale] == 'es' %>
+                                <%= testimonial[:title_es] %>
+                              <% end %>
+                            </h4>
+                            <div class="stars">
+                              <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
+                            </div>
+                          </div>
+                        </div>
+                        <p>
+                          <i class="bi bi-quote quote-icon-left"></i>
+                          <span>
+                            <% if session[:locale] == 'en' %>
+                              <%= testimonial[:comment] %>
+                            <% elsif session[:locale] == 'es' %>
+                              <%= testimonial[:comment_es] %>
+                            <% end %>
+                          </span>
+                          <i class="bi bi-quote quote-icon-right"></i>
+                        </p>
+                      </div>
+                    </div><!-- End testimonial item -->
+                <% end %>
+
+              </div>
+              <div class="swiper-pagination"></div>
+            </div>
+
+          </div>
+
+        </div>
+
+      </div>
+
+    </section><!-- /Testimonials Section -->
