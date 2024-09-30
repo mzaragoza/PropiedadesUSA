@@ -1,65 +1,89 @@
-%table{ style: "border-collapse: collapse; border: 1px solid black; width: 100%; text-align: left;" }
-  %thead
-    %tr
-      %th{ style: "border: 1px solid black; padding: 8px;" }
-        = t('users.dashboards.service_type')
-      %th{ style: "border: 1px solid black; padding: 8px;" }
-        = t('users.dashboards.description')
-  %tbody
-    %tr
-      %td{ style: "border: 1px solid black; padding: 8px;" }
-        = t('users.dashboards.incorporating')
-      %td{ style: "border: 1px solid black; padding: 8px;" }
-        = t('users.dashboards.incorporating_description')
-    %tr
-      %td{ style: "border: 1px solid black; padding: 8px;" }
-        = t('users.dashboards.bank')
-      %td{ style: "border: 1px solid black; padding: 8px;" }
-        = t('users.dashboards.bank_description')
-    %tr
-      %td{ style: "border: 1px solid black; padding: 8px;" }
-        = t('users.dashboards.find_real_estate')
-      %td{ style: "border: 1px solid black; padding: 8px;" }
-        = t('users.dashboards.find_real_estate_description')
-    %tr
-      %td{ style: "border: 1px solid black; padding: 8px;" }
-        = t('users.dashboards.offer')
-      %td{ style: "border: 1px solid black; padding: 8px;" }
-        = t('users.dashboards.offer_description')
-    %tr
-      %td{ colspan: "2", style: "background-color: #f2f2f2; border: 1px solid black; padding: 8px; font-weight: bold;" }
-        = t('users.dashboards.property_management')
-    %tr
-      %td{ style: "border: 1px solid black; padding: 8px;" }
-        = t('users.dashboards.insurance')
-      %td{ style: "border: 1px solid black; padding: 8px;" }
-        = t('users.dashboards.insurance_description')
-    %tr
-      %td{ style: "border: 1px solid black; padding: 8px;" }
-        = t('users.dashboards.renovation')
-      %td{ style: "border: 1px solid black; padding: 8px;" }
-        = t('users.dashboards.renovation_description')
+- current_user.statuses.each do |status|
+  %table{ style: "border-collapse: collapse; border: 1px solid black; width: 100%; text-align: left;" }
+    %thead
+      %tr
+        %th{ style: "border: 1px solid black; padding: 8px;" }
+          = t('users.dashboards.service_type')
+        %th{ style: "border: 1px solid black; padding: 8px;" }
+          = t('users.dashboards.description')
+        %th{ style: "border: 1px solid black; padding: 8px;" }
+          = t('users.dashboards.status')
+    %tbody
+      %tr
+        %td{ style: "border: 1px solid black; padding: 8px;" }
+          = t('users.dashboards.incorporating')
+        %td{ style: "border: 1px solid black; padding: 8px;" }
+          = t('users.dashboards.incorporating_description')
+        %td{ style: "border: 1px solid black; padding: 8px;" }
+          = status.incorporating
+      %tr
+        %td{ style: "border: 1px solid black; padding: 8px;" }
+          = t('users.dashboards.bank')
+        %td{ style: "border: 1px solid black; padding: 8px;" }
+          = t('users.dashboards.bank_description')
+        %td{ style: "border: 1px solid black; padding: 8px;" }
+          = status.bank
+      %tr
+        %td{ style: "border: 1px solid black; padding: 8px;" }
+          = t('users.dashboards.find_real_estate')
+        %td{ style: "border: 1px solid black; padding: 8px;" }
+          = t('users.dashboards.find_real_estate_description')
+        %td{ style: "border: 1px solid black; padding: 8px;" }
+          = status.find_real_estate
+      %tr
+        %td{ style: "border: 1px solid black; padding: 8px;" }
+          = t('users.dashboards.offer')
+        %td{ style: "border: 1px solid black; padding: 8px;" }
+          = t('users.dashboards.offer_description')
+        %td{ style: "border: 1px solid black; padding: 8px;" }
+          = status.offer
+      %tr
+        %td{ colspan: "3", style: "background-color: #f2f2f2; border: 1px solid black; padding: 8px; font-weight: bold;" }
+          = t('users.dashboards.property_management')
+      %tr
+        %td{ style: "border: 1px solid black; padding: 8px;" }
+          = t('users.dashboards.insurance')
+        %td{ style: "border: 1px solid black; padding: 8px;" }
+          = t('users.dashboards.insurance_description')
+        %td{ style: "border: 1px solid black; padding: 8px;" }
+          = status.insurance
+      %tr
+        %td{ style: "border: 1px solid black; padding: 8px;" }
+          = t('users.dashboards.renovation')
+        %td{ style: "border: 1px solid black; padding: 8px;" }
+          = t('users.dashboards.renovation_description')
+        %td{ style: "border: 1px solid black; padding: 8px;" }
+          = status.renovation
 
-    %tr
-      %td{ colspan: "2", style: "background-color: #f2f2f2; border: 1px solid black; padding: 8px; font-weight: bold;" }
-        = t('users.dashboards.tenant_services')
-    %tr
-      %td{ style: "border: 1px solid black; padding: 8px;" }
-        = t('users.dashboards.tenant_applications')
-      %td{ style: "border: 1px solid black; padding: 8px;" }
-        = t('users.dashboards.tenant_applications_description')
-    %tr
-      %td{ style: "border: 1px solid black; padding: 8px;" }
-        = t('users.dashboards.tenant')
-      %td{ style: "border: 1px solid black; padding: 8px;" }
-        = t('users.dashboards.tenant_description')
-    %tr
-      %td{ style: "border: 1px solid black; padding: 8px;" }
-        = t('users.dashboards.tickets')
-      %td{ style: "border: 1px solid black; padding: 8px;" }
-        = t('users.dashboards.tickets_description')
-    %tr
-      %td{ style: "border: 1px solid black; padding: 8px;" }
-        = t('users.dashboards.taxes')
-      %td{ style: "border: 1px solid black; padding: 8px;" }
-        = t('users.dashboards.taxes_description')
+      %tr
+        %td{ colspan: "3", style: "background-color: #f2f2f2; border: 1px solid black; padding: 8px; font-weight: bold;" }
+          = t('users.dashboards.tenant_services')
+      %tr
+        %td{ style: "border: 1px solid black; padding: 8px;" }
+          = t('users.dashboards.tenant_applications')
+        %td{ style: "border: 1px solid black; padding: 8px;" }
+          = t('users.dashboards.tenant_applications_description')
+        %td{ style: "border: 1px solid black; padding: 8px;" }
+          = status.tenant_applications
+      %tr
+        %td{ style: "border: 1px solid black; padding: 8px;" }
+          = t('users.dashboards.tenant')
+        %td{ style: "border: 1px solid black; padding: 8px;" }
+          = t('users.dashboards.tenant_description')
+        %td{ style: "border: 1px solid black; padding: 8px;" }
+          = status.tenant
+      %tr
+        %td{ style: "border: 1px solid black; padding: 8px;" }
+          = t('users.dashboards.tickets')
+        %td{ style: "border: 1px solid black; padding: 8px;" }
+          = t('users.dashboards.tickets_description')
+        %td{ style: "border: 1px solid black; padding: 8px;" }
+          = status.tickets
+      %tr
+        %td{ style: "border: 1px solid black; padding: 8px;" }
+          = t('users.dashboards.taxes')
+        %td{ style: "border: 1px solid black; padding: 8px;" }
+          = t('users.dashboards.taxes_description')
+        %td{ style: "border: 1px solid black; padding: 8px;" }
+          = status.taxes
+

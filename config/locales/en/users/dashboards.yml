@@ -3,6 +3,7 @@ en:
     dashboards:
       service_type: "Service Type"
       description: "Description"
+      status: "Status"
       incorporating: "Incorporating"
       incorporating_description: "Legal formation of your business entity."
       bank: "Bank"

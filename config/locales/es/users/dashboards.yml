@@ -3,6 +3,7 @@ es:
     dashboards:
       service_type: "Tipo de Servicio"
       description: "Descripción"
+      status: "Estado"
       incorporating: "Constitución de Empresa"
       incorporating_description: "Formación legal de tu entidad empresarial."
       bank: "Banco"
