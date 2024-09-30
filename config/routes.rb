@@ -1,4 +1,17 @@
 Rails.application.routes.draw do
+  devise_for :admins, :controllers => {
+    #registrations:  'admins/registrations',
+    sessions:      'admins/sessions',
+    passwords:     'admins/passwords',
+    confirmations: 'admins/confirmations'
+  }
+  authenticate :admin do
+    namespace :admins do
+      match "/dashboards/:user_id/impersonate" => "dashboards#impersonate", via: :all, as: :impersonate_user
+      root :to => 'dashboards#index'
+    end
+  end
+
   devise_for :users, :controllers => {
     #registrations:  'users/registrations',
     sessions:      'users/sessions',

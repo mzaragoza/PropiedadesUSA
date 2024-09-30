@@ -1,0 +1,39 @@
+!!!
+%html{:lang => "en"}
+  %head
+    = render 'layouts/admins/header_scripts'
+  %body#page-top
+    / Page Wrapper
+    #wrapper
+      / Sidebar
+      = render 'layouts/admins/sidebar'
+      / End of Sidebar
+      / Content Wrapper
+      #content-wrapper.d-flex.flex-column
+        / Main Content
+        #content
+          / Topbar
+          = render 'layouts/admins/topbar'
+          / End of Topbar
+          / Begin Page Content
+          .container-fluid
+            = yield
+            / Page Heading
+          / /.container-fluid
+        / End of Main Content
+        / Footer
+        = render 'layouts/admins/footer'
+        / End of Footer
+      / End of Content Wrapper
+    / End of Page Wrapper
+    / Scroll to Top Button
+    = render 'layouts/admins/scroll_to_top'
+    / Logout Modal
+    = render 'layouts/admins/logout_modal'
+    %script{:src => "/assets/admins/vendor/jquery/jquery.min.js"}
+    %script{:src => "/assets/admins/vendor/bootstrap/js/bootstrap.bundle.min.js"}
+    %script{:src => "/assets/admins/vendor/jquery-easing/jquery.easing.min.js"}
+    %script{:src => "/assets/admins/js/sb-admin-2.min.js"}
+    %script{:src => "/assets/admins/vendor/datatables/jquery.dataTables.min.js"}
+    %script{:src => "/assets/admins/vendor/datatables/dataTables.bootstrap4.min.js"}
+    %script{:src => "/assets/admins/js/demo/datatables-demo.js"}

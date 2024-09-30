@@ -1,0 +1,32 @@
+= users.count
+.container-fluid
+  / Page Heading
+  %h1.h3.mb-2.text-gray-800 Dashboard
+  / DataTales Example
+  .card.shadow.mb-4
+    .card-header.py-3
+      %h6.m-0.font-weight-bold.text-primary Users
+    .card-body
+      .table-responsive
+        %table#dataTable.table.table-bordered{:cellspacing => "0", :width => "100%"}
+          %thead
+            %tr
+              %th ID
+              %th Name
+              %th Email
+              %th Phone
+          %tfoot
+            %tr
+              %th ID
+              %th Name
+              %th Email
+              %th Phone
+          %tbody
+            - users.each do |user|
+              %tr
+                %td= user.id
+                %td
+                  = link_to admins_impersonate_user_path(user) do
+                    = user.full_name
+                %td= user.email
+                %td= user.phone

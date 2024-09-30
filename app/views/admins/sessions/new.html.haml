@@ -1,0 +1,12 @@
+%h2
+  ADM!NS
+= form_for(resource, as: resource_name, url: session_path(resource_name)) do |f|
+  .field
+    %p= f.label :email
+    %p= f.email_field :email, autofocus: true, autocomplete: "email"
+  .field
+    %p= f.label :password
+    %p= f.password_field :password, autocomplete: "current-password"
+  .actions
+    = f.submit "Log in"
+=# render "devise/shared/links"
