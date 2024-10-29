@@ -11,11 +11,12 @@
     %tbody
       %tr
         %td{ style: "border: 1px solid black; padding: 8px;" }
-          = t('users.dashboards.incorporating')
+          = link_to edit_users_incorporating_path(SecureRandom.hex) do
+            = t('users.dashboards.incorporating')
         %td{ style: "border: 1px solid black; padding: 8px;" }
           = t('users.dashboards.incorporating_description')
         %td{ style: "border: 1px solid black; padding: 8px;" }
-          = status.incorporating
+          = status.incorporating_status
       %tr
         %td{ style: "border: 1px solid black; padding: 8px;" }
           = t('users.dashboards.bank')
@@ -86,4 +87,3 @@
           = t('users.dashboards.taxes_description')
         %td{ style: "border: 1px solid black; padding: 8px;" }
           = status.taxes
-

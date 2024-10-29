@@ -20,6 +20,7 @@ Rails.application.routes.draw do
   }
   authenticate :user do
     namespace :users do
+      resources :incorporatings
       root :to => 'dashboards#index'
     end
   end

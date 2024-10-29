@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema[7.1].define(version: 2024_09_30_145923) do
+ActiveRecord::Schema[7.1].define(version: 2024_10_29_040510) do
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
 
@@ -52,6 +52,26 @@ ActiveRecord::Schema[7.1].define(version: 2024_09_30_145923) do
     t.string "phone"
     t.string "subject"
     t.string "message"
+  end
+
+  create_table "incorporations", force: :cascade do |t|
+    t.bigint "user_id", null: false
+    t.string "company_name"
+    t.date "incorporation_date"
+    t.string "state"
+    t.string "registration_number"
+    t.string "status"
+    t.text "notes"
+    t.string "business_type"
+    t.string "incorporator_name"
+    t.string "incorporator_email"
+    t.string "incorporator_phone"
+    t.string "incorporator_address"
+    t.date "annual_report_due_date"
+    t.boolean "in_good_standing", default: true
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
+    t.index ["user_id"], name: "index_incorporations_on_user_id"
   end
 
   create_table "statuses", force: :cascade do |t|
@@ -101,5 +121,6 @@ ActiveRecord::Schema[7.1].define(version: 2024_09_30_145923) do
     t.index ["unlock_token"], name: "index_users_on_unlock_token", unique: true
   end
 
+  add_foreign_key "incorporations", "users"
   add_foreign_key "statuses", "users"
 end
