@@ -14,3 +14,10 @@ admin.first_name = ENV['ADMIN_FIRST_NAME']
 admin.last_name = ENV['ADMIN_LAST_NAME']
 admin.phone = ENV['ADMIN_PHONE']
 admin.save
+
+user = User.find_or_initialize_by(email: ENV['USER_EMAIL'])
+user.password = ENV['USER_PASSWORD']
+user.first_name = ENV['USER_FIRST_NAME']
+user.last_name = ENV['USER_LAST_NAME']
+user.phone = ENV['USER_PHONE']
+user.save

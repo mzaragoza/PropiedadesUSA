@@ -6,7 +6,13 @@ class User < ApplicationRecord
 
   has_many :statuses
 
+  after_create :create_status
+
   def full_name
     "#{first_name} #{last_name}"
+  end
+
+  def create_status
+    statuses.new.save
   end
 end
